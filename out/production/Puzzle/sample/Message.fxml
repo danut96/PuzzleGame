@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.MessageController">
+   <children>
+      <AnchorPane layoutX="82.0" layoutY="51.0" prefHeight="255.0" prefWidth="447.0">
+         <children>
+            <Label fx:id="L1" alignment="CENTER" layoutX="44.0" layoutY="14.0" prefHeight="80.0" prefWidth="359.0" text="Game Over!" textFill="#61a139">
+               <font>
+                  <Font size="64.0" />
+               </font>
+            </Label>
+            <Button fx:id="PA" focusTraversable="false" layoutX="156.0" layoutY="145.0" mnemonicParsing="false" onMouseClicked="#goback" prefHeight="40.0" prefWidth="136.0" text="Play again">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+            <Button fx:id="Q" focusTraversable="false" layoutX="159.0" layoutY="201.0" mnemonicParsing="false" onMouseClicked="#quit" prefHeight="40.0" prefWidth="129.0" text="Quit" textFill="#f80000">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
